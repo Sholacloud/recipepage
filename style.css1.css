@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root{
+    --White : hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+--Stone150: hsl(30, 18%, 87%);
+--Stone600: hsl(30, 10%, 34%);
+--Stone900: hsl(24, 5%, 18%);
+
+--Brown800: hsl(14, 45%, 36%);
+
+--Rose800: hsl(332, 51%, 32%);
+--Rose50: hsl(330, 100%, 98%);
+--content: 'Young serif', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--Rose50);
+}
+
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card{
+    font-family: sans-serif;
+    max-height: 1540px;
+    max-width: 650px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: var(--White);
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+hr{
+    color: var(--Rose800);
+}
+
+h1{
+    font-family: serif;
+    font-size:3rem;
+    font-weight: 400px;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-weight: 90px;
+    color: var(--Rose800);
+}
+
+h3{
+    font-family: serif;
+    font-size: 25px;
+    font-weight: 200px;
+    color: var(--Brown800);
+    margin-bottom: 10px;
+    
+}
+
+.intro {
+    margin: 20px;
+}
+
+.prep {
+    margin: 20px;
+    background-color: var(--Stone100);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.list {
+    margin: 20px;
+    padding: 0 20px;
+}
+
+li{
+    margin: 10px;
+}
+
+#bold{
+    font-weight: 700;
+}
+
+.table{
+    margin: 20px;
+    padding: 0 20px;
+}
+
+table{
+    width: 535px;
+    margin: 10px ;
+    border-collapse: collapse;
+}
+
+tr{
+    border-bottom: 1px solid var(--Brown800);
+    border-width: 70%;
+}
+
+td{
+    padding: 3px 20px;
+}
+
+#bold-content{
+    color: var(--Brown800);
+    font-weight: 700;
+}
